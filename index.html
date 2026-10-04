@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0D1B2E">
+<title>時空觀測器</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main id="app"></main>
+<div id="dialog" hidden></div>
+<div id="overlay" hidden></div>
+<div id="toast" aria-live="polite"></div>
+
+<!-- 章節資料：新增章節時，在這裡加一行，並把 curriculum.js 裡的 status 改成 'play' -->
+<script src="data/curriculum.js"></script>
+<script src="data/ch01_prehistory.js"></script>
+<script src="data/ch02_indigenous.js"></script>
+<script src="data/ch03_1624.js"></script>
+<script src="data/ch05_1661.js"></script>
+<script src="data/ch09_1885.js"></script>
+<!-- 遊戲本體 -->
+<script src="js/art.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/engine.js"></script>
+</body>
+</html>
